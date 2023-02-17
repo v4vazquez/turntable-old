@@ -108,7 +108,7 @@ export default {
     },
     goToPage() {
       EventService.getEvent(this.idNumber).then((response) => {
-        console.log("molly");
+  
         if (response.status === 200 && response.data.length !== 0) {
           this.$router.push({ path: `/events/${this.idNumber}` });
         }

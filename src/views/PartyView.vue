@@ -81,18 +81,14 @@ export default {
         .then(response => {
           this.songs = response.data;
         })
-        .catch(error => {
-          console.error(error);
-        });
+       
     },
     getSuggested() {
       SongService.getSuggested(this.$route.params.id)
         .then(response => {
           this.suggestedSongs = response.data;
         })
-        .catch(error => {
-          console.error(error);
-        });
+      
     },
     searchSong() {
       SongService.searchSong(this.searchQuery)
@@ -114,7 +110,7 @@ export default {
       };
       SongService.addSongToSuggested(viewedSong, eventId)
         .then(() => {
-          console.log('Song added successfully!');
+        
         });
         this.getSuggested();
         this.getPlaylist();
@@ -130,7 +126,7 @@ export default {
     this.getPlaylist();
     this.getSuggested();
     EventService.getEvent(this.$route.params.id).then((response) => {
-      console.log(response)
+  
       this.currentEventName = response.data.eventName;
       this.currentEventDescription = response.data.description;
     });
