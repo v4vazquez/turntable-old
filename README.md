@@ -9,6 +9,8 @@ This project was created with a java spring backend and a vue front end. It incl
 ## YouTube Demo
 Demo of the project can be seen [here](https://youtu.be/_uBoFE5F010)
 
+## Road Map and features to be implemented.
+List of suggestions/features that I received while doing my user experience testing is [here](https://docs.google.com/document/d/1KEcp4t-BY1S6aZwgbSKxvIW0-d37HsqIRxvgu0JBkls/edit?usp=sharing)
 
 ## Collaborators
 [Eric Vazquez](https://www.linkedin.com/in/v4vazquez/)\
@@ -16,3 +18,5 @@ Demo of the project can be seen [here](https://youtu.be/_uBoFE5F010)
 [Bayram Ljujkovic](https://www.linkedin.com/in/bayraml/)\
 [Moussa Sy](https://www.linkedin.com/in/sy-moussa/)
 
+## Support
+For help, questions, ideas or comments please reach out to myself at evazquez0792@gmail.com 
